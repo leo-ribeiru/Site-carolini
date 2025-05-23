@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head data-aos="fade-down">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professora & Mediadora</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // duração da animação em milissegundos
+    once: true      // anima apenas uma vez
+  });
+</script>
+
+<body>
+  <header>
+    <img src="carolini.jpeg" alt="">
+    <h1>Profª Carolini Rangel</h1>
+    <p>Educando com sabedoria, mediando com amor ❤️</p>
+  </header>
+<section class="curriculo" data-aos="fade-up">
+  <h2>Minha Jornada</h2>
+  <ul class="lista-curriculo">
+    <li>
+  <strong>🎓 FORMAÇÃO ACADÊMICA:</strong><br>
+  Curso Normal em Nível Médio – Isepam Faetec<br>
+  Curso Nível Superior em Pedagogia – Cruzeiro do Sul
+</li>
+
+    <li>📘 <strong>PÓS GRADUAÇÃO:</strong><br> 
+    Cursando pós graduação Psicopedagogia – Faculminas<br>
+  </li>
+<li>
+  <strong>👩‍🏫 EXPERIÊNCIAS PROFISSIONAIS:</strong><br>
+  Centro de Educação Brincando e Educando (CEBE) – Professora (2012 a 2020)<br>
+  ISEPAM – Estágio – Educação Infantil e Ensino Fundamental<br>
+  APOE – Estágio<br>
+  Escola Maria Lúcia – Estágio – Educação Infantil, Ensino Fundamental e EJA<br>
+  APAE – Estágio<br>
+  Banco Itaú – Organizadora de Fila / Autoatendimento<br>
+  Centro Escola Riachuelo – Mediação Escolar<br>
+  Colégio Eucarístico – Mediação Escolar<br>
+  Colégio Eucarístico – Auxiliar Administrativo<br>
+  Prefeitura Municipal de Campos dos Goytacazes – Professora Educação Infantil (2024)<br>
+  Prefeitura Municipal de Campos dos Goytacazes – Professora Ensino Fundamental (2025)
+</li>
+
+
+  <li>
+  <strong>📚 CURSOS COMPLEMENTARES:</strong><br>
+  Informática Básica – Expert Informática<br>
+  Inglês Básico – João Barcelos Martins<br>
+  Inclusão (Autismo e Mediação Escolar)<br>
+  Regras e Limites na Escola<br>
+  Comunicação<br>
+  Arte e Aprendizagem<br>
+  Psicomotricidade<br>
+  Motivação<br>
+  Liderança e Autoridade<br>
+  Desenvolvimento Pessoal<br>
+  Educação Criadora
+</li>
+
+  <a href="curriculo.pdf" download class="btn-download-curriculo">⬇️ Baixar Currículo (PDF)</a>
+<section id="frases-inspiradoras">
+  <h2>Frases Inspiradoras</h2>
+  <ul id="lista-frases"></ul>
+</section>
+
+<script src="frases.js"></script>
+
+
+<script>
+  const frases = [
+    "📚 'Ensinar não é transferir conhecimento, mas criar as possibilidades para a sua produção.' ",
+    "🌱 'A mediação é a arte de ouvir com o coração.' ",
+    "💬 'Educar é semear com sabedoria e colher com paciência.' ",
+    "🎨 'Toda criança é um artista. O problema é como permanecer artista depois de crescer.' ",
+    "🧠 'A educação é a arma mais poderosa que você pode usar para mudar o mundo.' ",
+    "📝 'Ensina-me de várias maneiras, pois assim sou capaz de aprender.'"
+  ];
+
+  function mostrarFrase() {
+    const indice = Math.floor(Math.random() * frases.length);
+    document.getElementById("frase").innerText = frases[indice];
+  }
+
+  // Mostrar uma frase assim que a página carregar
+  window.onload = mostrarFrase;
+</script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+</body>
+</html>

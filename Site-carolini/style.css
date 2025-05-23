@@ -1,0 +1,210 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf0;
+  color: #333;
+}
+
+header {
+  background: #c9c0f8;
+  text-align: center;
+  padding: 2rem;
+}
+
+header img {
+  width: 15%;
+  height: auto;
+  max-width: 150px; /* limite para telas pequenas */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.sobre h2, .frases h2 {
+  color: #e75480;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 1rem 0;
+  background: #fff0f5;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fcd5ce;
+  color: #5c5c5c;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f3a7f9;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8a1fe8;
+}
+
+.curriculo h2 {
+  color: #e75480;
+  margin-bottom: 1rem;
+}
+
+.lista-curriculo {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-curriculo li {
+  background-color: #ebb9ca;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+.btn-download-curriculo {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #e75480;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-download-curriculo:hover {
+  background-color: #d6406a;
+}
+
+#frases-inspiradoras {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+#frases-inspiradoras ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+#frases-inspiradoras li {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+/* === RESPONSIVIDADE === */
+
+@media (max-width: 768px) {
+
+  header {
+    padding: 1.5rem 1rem;
+  }
+
+  header img {
+    width: 30%;
+    max-width: 120px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 1.5rem 1rem;
+    max-width: 100%;
+  }
+
+  ul li {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  .lista-curriculo li {
+    font-size: 1rem;
+    padding: 0.8rem;
+  }
+
+  button, .btn-download-curriculo {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.1rem;
+  }
+
+  #frases-inspiradoras {
+    padding: 1rem;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  header img {
+    width: 40%;
+    max-width: 100px;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 0.9rem;
+  }
+
+  ul li {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  .lista-curriculo li {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+
+  button, .btn-download-curriculo {
+    font-size: 1rem;
+  }
+}
+
+
+
